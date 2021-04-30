@@ -15,5 +15,5 @@ def askQuestionYN(question):
             return (False)
         print('Неверный ввод. Попробуйте еще раз.')
         print('Использовано '+str(i+1)+' попыток из '+str(tries))
-    print(f"{TColors.TerminalColors.WARNING}Ответ не был получен :-( возвращаем (NO) {TColors.TerminalColors.ENDC}")
+    print("Ответ не был получен :-( возвращаем (NO)")
     return (False)
